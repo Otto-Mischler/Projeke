@@ -1,352 +1,381 @@
-            {
-                "id": "app-entity-discovery_scope_rsleaEAyRWLrT6",
-                "name": "scope_vorlagenationaleartikeldpb",
-                "type": "scope",
-                "properties": {
-                    "createdService": "configurationManageService",
-                    "createdBy": "Otto.Mischler@advellence.com_user",
-                    "modifiedService": "configurationManageService",
-                    "modifiedBy": "Otto.Mischler@advellence.com_user",
-                    "createdDate": "2025-08-19T02:58:27.884-0500",
-                    "modifiedDate": "2025-08-19T02:58:27.884-0500"
-                },
-                "data": {
-                    "contexts": [
-                        {
-                            "context": {
-                                "app": "app-entity-discovery",
-                                "component": "_ALL",
-                                "role": "systemadmin",
-                                "service": "_ALL",
-                                "subComponent": "_ALL",
-                                "user": "Otto.Mischler@advellence.com_user"
-                            },
-                            "jsonData": {
-                                "config": {
-                                    "id": "rss2nF9qlVd8sc",
-                                    "accesstype": "_SELF",
-                                    "name": "Vorlage Nationale Artikel DPB",
-                                    "icon": "pebble-icon:saved-search",
-                                    "createdby": "Otto.Mischler@advellence.com_user",
-                                    "createdbyrole": "systemadmin",
-                                    "ownershipData": "",
-                                    "scope": [
-                                        {
-                                            "id": "Global",
-                                            "name": "Global",
-                                            "title": "Global",
-                                            "subtitle": "Global",
-                                            "contextType": "global",
-                                            "type": "contextModel",
-                                            "disabled": false
-                                        },
-                                        {
-                                            "entityId": "ersFqUUGGgqKMh8",
-                                            "id": "de-DE",
-                                            "title": "Deutsch (Schweiz)",
-                                            "type": "localeModel",
-                                            "disabled": false
-                                        },
-                                        {
-                                            "entityId": "ersjxWSjjvk83zn",
-                                            "id": "fr-FR",
-                                            "title": "Französisch (Schweiz)",
-                                            "name": "fr-FR",
-                                            "subtitle": "Locales",
-                                            "type": "localeModel",
-                                            "contextType": "locale"
-                                        },
-                                        {
-                                            "entityId": "447526fa-7327-471b-a3a1-040930830afd",
-                                            "id": "it-IT",
-                                            "title": "Italienisch (Schweiz)",
-                                            "name": "it-IT",
-                                            "subtitle": "Locales",
-                                            "type": "localeModel",
-                                            "contextType": "locale"
-                                        },
-                                        {
-                                            "id": "axartikeltypsap_attributeModel",
-                                            "name": "axartikeltypsap",
-                                            "externalName": "Artikeltyp",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axartikelartsap_attributeModel",
-                                            "name": "axartikelartsap",
-                                            "externalName": "Artikelart",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axsaisontypsap_attributeModel",
-                                            "name": "axsaisontypsap",
-                                            "externalName": "Saison Typ",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axgtinsuche_attributeModel",
-                                            "name": "axgtinsuche",
-                                            "externalName": "GTIN Suche",
-                                            "dataType": "string",
-                                            "displayType": "textbox",
-                                            "groupName": "99 - intern",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axgtinregioergaenzt_attributeModel",
-                                            "name": "axgtinregioergaenzt",
-                                            "externalName": "Ergänzte Regio-Artikel-GTIN",
-                                            "dataType": "string",
-                                            "displayType": "textbox",
-                                            "groupName": "99 - intern",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axartikelkurztext_attributeModel",
-                                            "name": "axartikelkurztext",
-                                            "externalName": "Artikeltext",
-                                            "dataType": "string",
-                                            "displayType": "textbox",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axgestbeschr1_attributeModel",
-                                            "name": "axgestbeschr1",
-                                            "externalName": "Gestellbeschriftung 1",
-                                            "dataType": "string",
-                                            "displayType": "textbox",
-                                            "groupName": "03 - Texte",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axgestbeschr2_attributeModel",
-                                            "name": "axgestbeschr2",
-                                            "externalName": "Gestellbeschriftung 2",
-                                            "dataType": "string",
-                                            "displayType": "textbox",
-                                            "groupName": "03 - Texte",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axgestbeschr3regio_attributeModel",
-                                            "name": "axgestbeschr3regio",
-                                            "externalName": "Gestellbeschriftung 3 Regio",
-                                            "dataType": "string",
-                                            "displayType": "textbox",
-                                            "groupName": "99 - intern",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "acxkassenbontxtregio_attributeModel",
-                                            "name": "acxkassenbontxtregio",
-                                            "externalName": "Cash receipt text Regio",
-                                            "dataType": "string",
-                                            "displayType": "textbox",
-                                            "groupName": "99 - intern",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axnettoinhalt_attributeModel",
-                                            "name": "axnettoinhalt",
-                                            "externalName": "Nettoinhalt",
-                                            "dataType": "decimal",
-                                            "displayType": "textbox",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axnettomengeneinheit_attributeModel",
-                                            "name": "axnettomengeneinheit",
-                                            "externalName": "Inhaltsmengeneinheit Grundpreis",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axvergleichspreiseinheit_attributeModel",
-                                            "name": "axvergleichspreiseinheit",
-                                            "externalName": "Grundpreiseinheit",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axbasismengeneinheit_attributeModel",
-                                            "name": "axbasismengeneinheit",
-                                            "externalName": "Basismengeneinheit",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "atxwarengruppesap_attributeModel",
-                                            "name": "atxwarengruppesap",
-                                            "externalName": "Warengruppe",
-                                            "dataType": "string",
-                                            "displayType": "path",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axtaxclass_attributeModel",
-                                            "name": "axtaxclass",
-                                            "externalName": "Steuerklassifikation",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axaltersbegrtyp_attributeModel",
-                                            "name": "axaltersbegrtyp",
-                                            "externalName": "Altersbegrenzungs-Typ",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "01 - Rumpfinformationen",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axrabattzugelassen_attributeModel",
-                                            "name": "axrabattzugelassen",
-                                            "externalName": "Rabatt zugelassen",
-                                            "dataType": "boolean",
-                                            "displayType": "boolean",
-                                            "groupName": "05 - Kasse",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axrueckgabezugelassen_attributeModel",
-                                            "name": "axrueckgabezugelassen",
-                                            "externalName": "Rückgabe zugelassen",
-                                            "dataType": "boolean",
-                                            "displayType": "boolean",
-                                            "groupName": "05 - Kasse",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axpreisaenderungkasse_attributeModel",
-                                            "name": "axpreisaenderungkasse",
-                                            "externalName": "Preisänderung Kasse erlaubt",
-                                            "dataType": "boolean",
-                                            "displayType": "boolean",
-                                            "groupName": "05 - Kasse",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axautomatischerbondruck_attributeModel",
-                                            "name": "axautomatischerbondruck",
-                                            "externalName": "Automatischer Bondruck",
-                                            "dataType": "boolean",
-                                            "displayType": "boolean",
-                                            "groupName": "05 - Kasse",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axshopinshop_attributeModel",
-                                            "name": "axshopinshop",
-                                            "externalName": "Shop-In-Shop",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "05 - Kasse",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axregiofremdartikel_attributeModel",
-                                            "name": "axregiofremdartikel",
-                                            "externalName": "Ist Fremdartikel",
-                                            "dataType": "boolean",
-                                            "displayType": "boolean",
-                                            "groupName": "99 - intern",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axgtintyperegioartikel_attributeModel",
-                                            "name": "axgtintyperegioartikel",
-                                            "externalName": "GTIN-Typ Regioapp",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "99 - intern",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        },
-                                        {
-                                            "id": "axsystemintegrationsap_attributeModel",
-                                            "name": "axsystemintegrationsap",
-                                            "externalName": "SAP System Integration",
-                                            "dataType": "string",
-                                            "displayType": "referencelist",
-                                            "groupName": "99 - intern",
-                                            "domain": "Thing",
-                                            "type": "attributeModel",
-                                            "isEnhancerGivenAttribute": false
-                                        }
-                                    ],
-                                    "advancedOptions": {
-                                        "includeThumbnail": false
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "app-entity-discovery_scope_rsleaEAyRWLrT6",
+            "name": "scope_vorlagenationaleartikeldpb2",
+            "type": "scope",
+            "properties": {
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "Otto.Mischler@advellence.com_user",
+                "modifiedDate": "2025-12-08T05:57:03.173-0600"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "app-entity-discovery",
+                            "component": "_ALL",
+                            "role": "systemadmin",
+                            "service": "_ALL",
+                            "subComponent": "_ALL",
+                            "user": "Otto.Mischler@advellence.com_user"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "id": "rss2nF9qlVd8sc",
+                                "accesstype": "_SELF",
+                                "name": "Vorlage Nationale Artikel DPB 2",
+                                "icon": "pebble-icon:saved-search",
+                                "createdby": "Otto.Mischler@advellence.com_user",
+                                "createdbyrole": "systemadmin",
+                                "ownershipData": "",
+                                "scope": [
+                                    {
+                                        "id": "Global",
+                                        "name": "Global",
+                                        "title": "Global",
+                                        "subtitle": "Global",
+                                        "contextType": "global",
+                                        "type": "contextModel",
+                                        "disabled": false
+                                    },
+                                    {
+                                        "entityId": "ersFqUUGGgqKMh8",
+                                        "id": "de-DE",
+                                        "title": "Deutsch (Schweiz)",
+                                        "type": "localeModel",
+                                        "disabled": false
+                                    },
+                                    {
+                                        "entityId": "ersjxWSjjvk83zn",
+                                        "id": "fr-FR",
+                                        "title": "Französisch (Schweiz)",
+                                        "name": "fr-FR",
+                                        "subtitle": "Locales",
+                                        "type": "localeModel",
+                                        "contextType": "locale"
+                                    },
+                                    {
+                                        "entityId": "447526fa-7327-471b-a3a1-040930830afd",
+                                        "id": "it-IT",
+                                        "title": "Italienisch (Schweiz)",
+                                        "name": "it-IT",
+                                        "subtitle": "Locales",
+                                        "type": "localeModel",
+                                        "contextType": "locale"
+                                    },
+                                    {
+                                        "id": "axartikeltypsap_attributeModel",
+                                        "name": "axartikeltypsap",
+                                        "externalName": "Artikeltyp",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axartikelartsap_attributeModel",
+                                        "name": "axartikelartsap",
+                                        "externalName": "Artikelart",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axsaisontypsap_attributeModel",
+                                        "name": "axsaisontypsap",
+                                        "externalName": "Saison Typ",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axgtinsuche_attributeModel",
+                                        "name": "axgtinsuche",
+                                        "externalName": "GTIN Suche",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axgtinregioergaenzt_attributeModel",
+                                        "name": "axgtinregioergaenzt",
+                                        "externalName": "Ergänzte Regio-Artikel-GTIN",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axartikelkurztext_attributeModel",
+                                        "name": "axartikelkurztext",
+                                        "externalName": "Artikeltext",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axgestbeschr1_attributeModel",
+                                        "name": "axgestbeschr1",
+                                        "externalName": "Gestellbeschriftung 1",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "03 - Texte",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axgestbeschr2_attributeModel",
+                                        "name": "axgestbeschr2",
+                                        "externalName": "Gestellbeschriftung 2",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "03 - Texte",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axgestbeschr3regio_attributeModel",
+                                        "name": "axgestbeschr3regio",
+                                        "externalName": "Gestellbeschriftung 3 Regio",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "acxkassenbontxtregio_attributeModel",
+                                        "name": "acxkassenbontxtregio",
+                                        "externalName": "Cash receipt text Regio",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axnettoinhalt_attributeModel",
+                                        "name": "axnettoinhalt",
+                                        "externalName": "Nettoinhalt",
+                                        "dataType": "decimal",
+                                        "displayType": "textbox",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axnettomengeneinheit_attributeModel",
+                                        "name": "axnettomengeneinheit",
+                                        "externalName": "Inhaltsmengeneinheit Grundpreis",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axvergleichspreiseinheit_attributeModel",
+                                        "name": "axvergleichspreiseinheit",
+                                        "externalName": "Grundpreiseinheit",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axbasismengeneinheit_attributeModel",
+                                        "name": "axbasismengeneinheit",
+                                        "externalName": "Basismengeneinheit",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "atxwarengruppesap_attributeModel",
+                                        "name": "atxwarengruppesap",
+                                        "externalName": "Warengruppe",
+                                        "dataType": "string",
+                                        "displayType": "path",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axtaxclass_attributeModel",
+                                        "name": "axtaxclass",
+                                        "externalName": "Steuerklassifikation",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axaltersbegrtyp_attributeModel",
+                                        "name": "axaltersbegrtyp",
+                                        "externalName": "Altersbegrenzungs-Typ",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "01 - Rumpfinformationen",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axrabattzugelassen_attributeModel",
+                                        "name": "axrabattzugelassen",
+                                        "externalName": "Rabatt zugelassen",
+                                        "dataType": "boolean",
+                                        "displayType": "boolean",
+                                        "groupName": "05 - Kasse",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axrueckgabezugelassen_attributeModel",
+                                        "name": "axrueckgabezugelassen",
+                                        "externalName": "Rückgabe zugelassen",
+                                        "dataType": "boolean",
+                                        "displayType": "boolean",
+                                        "groupName": "05 - Kasse",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axpreisaenderungkasse_attributeModel",
+                                        "name": "axpreisaenderungkasse",
+                                        "externalName": "Preisänderung Kasse erlaubt",
+                                        "dataType": "boolean",
+                                        "displayType": "boolean",
+                                        "groupName": "05 - Kasse",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axautomatischerbondruck_attributeModel",
+                                        "name": "axautomatischerbondruck",
+                                        "externalName": "Automatischer Bondruck",
+                                        "dataType": "boolean",
+                                        "displayType": "boolean",
+                                        "groupName": "05 - Kasse",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axshopinshop_attributeModel",
+                                        "name": "axshopinshop",
+                                        "externalName": "Shop-In-Shop",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "05 - Kasse",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axregiofremdartikel_attributeModel",
+                                        "name": "axregiofremdartikel",
+                                        "externalName": "Ist Fremdartikel",
+                                        "dataType": "boolean",
+                                        "displayType": "boolean",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axgtintyperegioartikel_attributeModel",
+                                        "name": "axgtintyperegioartikel",
+                                        "externalName": "GTIN-Typ Regioapp",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axsystemintegrationsap_attributeModel",
+                                        "name": "axsystemintegrationsap",
+                                        "externalName": "SAP System Integration",
+                                        "dataType": "string",
+                                        "displayType": "referencelist",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axsource_attributeModel",
+                                        "name": "axsource",
+                                        "externalName": "Source",
+                                        "dataType": "string",
+                                        "displayType": "textbox",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
+                                    },
+                                    {
+                                        "id": "axistvordefiniert_attributeModel",
+                                        "name": "axistvordefiniert",
+                                        "externalName": "Ist Vordefiniert",
+                                        "dataType": "boolean",
+                                        "displayType": "boolean",
+                                        "groupName": "99 - intern",
+                                        "domain": "Thing",
+                                        "type": "attributeModel",
+                                        "isEnhancerGivenAttribute": false
                                     }
+                                ],
+                                "isFavourite": false,
+                                "advancedOptions": {
+                                    "includeThumbnail": false
                                 }
                             }
                         }
-                    ]
-                }
+                    }
+                ]
             }
+        }
+    ]
+}
