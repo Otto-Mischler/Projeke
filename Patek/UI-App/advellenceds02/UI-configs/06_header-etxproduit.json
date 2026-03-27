@@ -1,0 +1,68 @@
+{
+    "metaInfo": {
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
+    },
+    "configObjects": [
+        {
+            "id": "rock-entity-header_etxproduit_uiConfig",
+            "name": "rock-entity-header_etxproduit",
+            "type": "uiConfig",
+            "properties": {
+                "createdByService": "system",
+                "createdBy": "system"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "component": "rock-entity-header",
+                            "entityType": "etxproduit"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "headerConfig": {
+                                    "a1": {
+                                        "visible": true,
+                                        "displaySequence": 10,
+                                        "attributeName": "atxfamillecommerciale",
+                                        "noTrim": false,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "a2": {
+                                        "visible": true,
+                                        "displaySequence": 20,
+                                        "attributeName": "atxtypeproduit",
+                                        "noTrim": false,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "a3": {
+                                        "visible": true,
+                                        "displaySequence": 30,
+                                        "attributeName": "atxanneesortiecommerciale",
+                                        "noTrim": false,
+                                        "label": "{model.externalName}"
+                                    },
+                                    "typeExternalName": {
+                                        "visible": false
+                                    },
+                                    "name": {
+                                        "visible": false
+                                    },
+                                    "id": {
+                                        "visible": false
+                                    }
+                                },
+                                "thumbnailConfig": {
+                                    "relationshipName": "hasimages",
+                                    "thumbnailIdentifier": "thumbnailid"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

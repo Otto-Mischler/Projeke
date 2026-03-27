@@ -1,0 +1,75 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "global-settings_systemadmin_uiConfig",
+      "name": "global-settings",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "systemadmin.{{TENANT}}@riversand.com_user",
+        "modifiedDate": "2026-02-11T04:20:19.689-0600"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "global-settings",
+              "role": "systemadmin"
+            },
+            "jsonData": {
+              "config": {
+                "environmentIndicator": {
+                  "color": "blue",
+                  "envName": "Demo 02",
+                  "indicatorVisible": true
+                },
+                "themeSettings": {
+                  "mainLogoUrl": "https://i.ibb.co/K0XMj4H/Riversand-Logo-White.png",
+                  "themeName": "darkblue",
+                  "headerLogoUrl": "",
+                  "footerTitle": "Advellence Demo"
+                },
+                "dataDefaults": {
+                  "defaultTaxonomy": "mastertaxonomy",
+                  "entityTypes": {
+                    "digitalAsset": [
+                      "audio",
+                      "document",
+                      "image",
+                      "video"
+                    ],
+                    "location": [
+                      "location"
+                    ],
+                    "thing": [
+                      "eArticle",
+                      "etxproduit",
+                      "etxmasterproduit"
+                    ],
+                    "party": [
+                      "customer",
+                      "rsdraftcustomer",
+                      "rsdraftvendor",
+                      "vendor",
+                      "thaliaAutor",
+                      "thaliaVerlag",
+                      "thaliaRegisseur",
+                      "thaliaHersteller",
+                      "epxThaliaHersteller"
+                    ]
+                  },
+                  "applyGraphCoalescedStyle": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
