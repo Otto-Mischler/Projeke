@@ -1,0 +1,53 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "global-settings_uiConfig",
+      "name": "global-settings",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-04-14T02:40:21.921-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "global-settings"
+            },
+            "jsonData": {
+              "config": {
+                "environmentIndicator": {
+                  "color": "yellow",
+                  "envName": "PoC",
+                  "indicatorVisible": true,
+                  "showTenantType": false
+                },
+                "dataDefaults": {
+                  "enableAITranslation": true,
+                  "isDynamicEntityUpdateEnabled": true,
+                  "entityTypes": {
+                    "digitalAsset": [
+                      "document",
+                      "image",
+                      "video"
+                    ],
+                    "thing": [
+                      "etxproduct"
+                    ]
+                  },
+                  "applyGraphCoalescedStyle": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-tenant-logo_uiConfig",
+      "name": "rock-tenant-logo",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.130.0.2035",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "createdDate": "2026-04-13T10:00:40.645-0500",
+        "modifiedDate": "2026-04-13T10:00:40.645-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-tenant-logo"
+            },
+            "jsonData": {
+              "config": {
+                "externalLogoURL": "https://s1.kaercher-media.com/versions/2026.3.0/static/img/kaercher_logo.svg"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
