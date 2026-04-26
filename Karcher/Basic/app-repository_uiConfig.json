@@ -1,0 +1,49 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "app-repository_uiConfig",
+      "name": "app-repository",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "system_user",
+        "modifiedDate": "2026-04-22T18:52:44.776+0200"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "_DEFAULT",
+              "component": "app-repository",
+              "dchannel": "_DEFAULT",
+              "domain": "_DEFAULT",
+              "entityType": "_DEFAULT",
+              "relationship": "_DEFAULT",
+              "role": "_DEFAULT",
+              "tenant": "_DEFAULT",
+              "user": "_DEFAULT"
+            },
+            "jsonData": {
+              "config": {
+                "business-rule-create": {
+                  "enabled": false
+                },
+                "search": {
+                  "enabled": false
+                },
+                "search-thing": {
+                  "enabled": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

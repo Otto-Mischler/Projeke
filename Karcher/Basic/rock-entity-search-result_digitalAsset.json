@@ -1,0 +1,93 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-search-result_digitalAsset_uiConfig",
+      "name": "rock-entity-search-result_digitalAsset",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.104.0.2032",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.sysadmin@riversand.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.sysadmin@riversand.com_user",
+        "createdDate": "2024-06-21T14:08:57.776+0200",
+        "modifiedDate": "2024-06-21T14:08:57.776+0200"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-search-result",
+              "domain": "digitalAsset"
+            },
+            "jsonData": {
+              "config": {
+                "gridConfig": {
+                  "itemConfig": {
+                    "fields": {
+                      "viewassets": {
+                        "visible": false
+                      },
+                      "property_originalfilename": {
+                        "filterable": true,
+                        "visible": true,
+                        "isMetaDataColumn": false,
+                        "displaySequence": 10,
+                        "name": "property_originalfilename",
+                        "sortable": true
+                      },
+                      "atxkarcherimagestandard": {
+                        "filterable": true,
+                        "visible": true,
+                        "isMetaDataColumn": false,
+                        "displaySequence": 20,
+                        "name": "atxkarcherimagestandard",
+                        "sortable": true
+                      },
+                      "createdate": {
+                        "filterable": true,
+                        "visible": true,
+                        "isMetaDataColumn": false,
+                        "sortType": "desc",
+                        "displaySequence": 30,
+                        "name": "createdate",
+                        "sortable": true
+                      },
+                      "atxkarcherassetid": {
+                        "filterable": true,
+                        "visible": true,
+                        "isMetaDataColumn": false,
+                        "displaySequence": 10,
+                        "name": "atxkarcherassetid",
+                        "sortable": true
+                      },
+                      "imagesize": {
+                        "visible": true
+                      },
+                      "filesize": {
+                        "visible": true
+                      }
+                    }
+                  },
+                  "viewConfig": {
+                    "tile": {
+                      "settings": {
+                        "titlePattern": "{entity.attributes.property_originalfilename}",
+                        "subTitlePattern": "{entity.attributes.atxkarcherimagestandard} | {entity.attributes.createdate} | {entity.attributes.atxkarcherassetid}"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

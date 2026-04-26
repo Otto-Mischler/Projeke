@@ -1,0 +1,75 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-navmenu_uiConfig",
+      "name": "rock-navmenu",
+      "type": "uiConfig",
+      "properties": {
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.systemadmin@syndigo.com_user",
+        "modifiedDate": "2026-04-22T17:07:15.802+0200"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-navmenu"
+            },
+            "jsonData": {
+              "config": {
+                "quick-actions": {
+                  "subNavMenu": {
+                    "create": {
+                      "actions": {
+                        "createBusinessRule": {
+                          "name": "createBusinessRule",
+                          "icon": "pebble-icon:advanced-gear",
+                          "text": "{[BizRulTxt]}",
+                          "visible": false,
+                          "displaySequence": 200,
+                          "dataRoute": "business-rule-create",
+                          "contextData": {}
+                        }
+                      }
+                    }
+                  }
+                },
+                "search-thing": {
+                  "dataRoute": "search-thing",
+                  "visible": true,
+                  "displaySequence": 30,
+                  "name": "search-thing",
+                  "icon": "pebble-icon:search",
+                  "title": "{[STARTit]}"
+                },
+                "search": {
+                  "visible": false,
+                  "subNavMenu": {
+                    "search": {
+                      "visible": true,
+                      "actions": {
+                        "search-thing": {
+                          "name": "search-thing",
+                          "title": "{[STARTit]}",
+                          "dataRoute": "search-thing",
+                          "icon": "pebble-icon:sandbox-search",
+                          "visible": true,
+                          "displaySequence": 10
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

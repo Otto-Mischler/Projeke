@@ -1,0 +1,87 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "rock-entity-header_image_uiConfig",
+      "name": "rock-entity-header_image",
+      "type": "uiConfig",
+      "properties": {
+        "buildVersion": "1.106.0.2045",
+        "createdService": "configurationManageService",
+        "createdBy": "{{TENANT}}.sysadmin@riversand.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "{{TENANT}}.sysadmin@riversand.com_user",
+        "createdDate": "2024-08-14T14:44:56.571+0200",
+        "modifiedDate": "2024-08-14T14:44:56.571+0200"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "component": "rock-entity-header",
+              "entityType": "image"
+            },
+            "jsonData": {
+              "config": {
+                "headerConfig": {
+                  "sysmdmid": {
+                    "visible": false
+                  },
+                  "typeExternalName": {
+                    "visible": true
+                  },
+                  "atxkarcherimagestandard": {
+                    "isMetadataAttribute": true,
+                    "visible": true,
+                    "displaySequence": 20,
+                    "attributeName": "atxkarcherimagestandard",
+                    "label": "{model.externalName}",
+                    "noTrim": true
+                  },
+                  "atxkarcherassetid": {
+                    "isMetadataAttribute": true,
+                    "visible": true,
+                    "displaySequence": 30,
+                    "attributeName": "atxkarcherassetid",
+                    "label": "{model.externalName}",
+                    "noTrim": true
+                  },
+                  "sysmdmname": {
+                    "visible": false
+                  },
+                  "name": {
+                    "visible": false,
+                    "attributeName": "name",
+                    "noTrim": true
+                  },
+                  "thumbnailid": {
+                    "isMetadataAttribute": true,
+                    "visible": false,
+                    "displaySequence": 10,
+                    "attributeName": "thumbnailid",
+                    "noTrim": true
+                  },
+                  "id": {
+                    "visible": false,
+                    "attributeName": "id",
+                    "noTrim": true
+                  }
+                },
+                "thumbnailConfig": {
+                  "relationshipName": "hasimages",
+                  "relationshipFilterAttributeName": "isprimary",
+                  "relationshipFilterAttributeValue": true,
+                  "thumbnailIdentifier": "thumbnailid"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
