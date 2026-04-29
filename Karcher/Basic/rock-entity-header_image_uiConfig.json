@@ -35,7 +35,7 @@
                     "visible": true
                   },
                   "atxkarcherimagestandard": {
-                    "isMetadataAttribute": true,
+                    "isMetadataAttribute": false,
                     "visible": true,
                     "displaySequence": 20,
                     "attributeName": "atxkarcherimagestandard",
@@ -43,7 +43,7 @@
                     "noTrim": true
                   },
                   "atxkarcherassetid": {
-                    "isMetadataAttribute": true,
+                    "isMetadataAttribute": false,
                     "visible": true,
                     "displaySequence": 30,
                     "attributeName": "atxkarcherassetid",
